@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(231, 245, 209);
+}
+
+#main {
+    margin-left: 230px;
+    margin-top: 200px;
+    background-color: rgb(231, 245, 209);
+    max-width: max-content;
+    padding: 10px;
+    
+}
+
+#today {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.goalBox{
+    border: none;
+}
+#goal1{
+    border: 2px;
+}
+#inputGoal1{
+    border:none;
+}
