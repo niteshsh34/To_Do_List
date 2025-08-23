@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+     <script src="script.js" defer></script>
   </head>
   <body>
     <div id="main">
@@ -19,27 +20,33 @@
         <div id="today">
           <h2>Today 🌞</h2>
           <h6>Just a step away, keep going!</h6>
-          <progress status>2/3 Completed</progress>
+          <progress value="100" max="100">2/3Completed%</progress>
+
           <div id="goal1" class="goalBox">
-            <div id="goal1p">
+            <div id="goal1main">
               <input type="checkbox"  />
               <label for="goal1p"></label>
-              <input id="inputGoal1" type="text" placeholder="Enter goal 1" />
+              <input id="inputGoal" type="text" placeholder="Enter goal 1" />
             </div>
           </div>
-          <!-- <div id="goal1" class="goalBox">
-            <div>
-              <input type="checkbox" id="goal1p" />
-              <label for="goal1p"></label>
-              <input id="inputGoal1" type="text" placeholder="Enter goal 1" />
+
+          <div id="goal2" class="goalBox">
+            <div id="goal2main">
+              <input type="checkbox"  />
+              <label for="goal2main"></label>
+              <input id="inputGoal" type="text" placeholder="Enter goal 2" />
             </div>
           </div>
-          <div id="goal1" class="goalBox">
-            <div>
-              <input type="checkbox" id="goal1p" />
-              <label for="goal1p"></label>
-              <input id="inputGoal1" type="text" placeholder="Enter goal 1" />
-            </div> -->
+
+          <div id="goal3" class="goalBox">
+            <div id="goal3main">
+              <input type="checkbox"  />
+              <label for="goal3main"></label>
+              <input id="inputGoal" type="text" placeholder="Enter goal 3" />
+            </div>
+          </div>
+           
+          </div>
           </div>
         </div>
       </div>
